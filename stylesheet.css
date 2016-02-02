@@ -1,18 +1,84 @@
 * {
   font-family:Lato;
   color:#FFFFF4;
+  /*border: 1px solid red;*/
+  font-size: 40px;
 }
 
 body {
-background: #B993D6; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: #B993D6;
+background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB);
+background: linear-gradient(to left, #B993D6 , #8CA6DB);
 }
 
 #intro-page {
   text-align: center;
   height:100vh;
-  vertical-align: text-bottom;
 }
 
+#intro-text {
+  line-height: 100vh;
+
+}
+
+
+#about-page {
+  text-align: center;
+  height:100vh;
+}
+
+#about-text {
+  line-height: 100vh;
+}
+
+
+/*arrow to schroll down css begins here*/
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: white;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay:0s;
+  -webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+/*arrow to scroll down css ends here*/
