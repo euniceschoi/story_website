@@ -11,6 +11,10 @@ background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB);
 background: linear-gradient(to left, #B993D6 , #8CA6DB);
 }
 
+.page-block {
+  height:100vh;
+  text-align: center;
+}
 #intro-page {
   text-align: center;
   height:100vh;
@@ -18,6 +22,8 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
 
 #intro-text {
   line-height: 100vh;
+  position:relative;
+  z-index:2;
 
 }
 
@@ -83,11 +89,13 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
 
 /*arrow to scroll down css ends here*/
 
-#stars {
+/*#stars {
   float:left;
   display: inline-block;
   animation: blink 3s;
   animation-iteration-count: infinite;
+  position:relative;
+  z-index:1;
 }
 
 @keyframes blink {
@@ -100,4 +108,4 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
     100% {
         opacity: 1;
     }
-}
+}*/
