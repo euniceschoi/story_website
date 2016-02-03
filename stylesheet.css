@@ -2,7 +2,6 @@
   font-family:Lato;
   color:#FFFFF4;
   /*border: 1px solid red;*/
-  font-size: 40px;
 }
 
 body {
@@ -14,6 +13,10 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
 .page-block {
   height:100vh;
   text-align: center;
+}
+.page-text {
+  height:100vh;
+  font-size:36px;
 }
 #intro-page {
   text-align: center;
