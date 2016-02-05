@@ -19,32 +19,18 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
   font-size:36px;
 }
 #intro-page {
-  text-align: center;
+  /*text-align: center;*/
   height:100vh;
+  position:absolute;
 }
 
-#intro-text {
-  line-height: 100vh;
-  /*position:relative;*/
-
-}
-
-
-#about-page {
-  text-align: center;
-  height:100vh;
-}
-
-#about-text {
-  line-height: 100vh;
-}
 
 
 /*arrow to schroll down css begins here*/
 .arrows {
   width: 60px;
   height: 72px;
-  /*position: absolute;*/
+  position: absolute;
   left: 50%;
   margin-left: -30px;
   bottom: 20px;
@@ -91,32 +77,24 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
 
 /*arrow to scroll down css ends here*/
 
-/*#stars {
-  float:left;
-  display: inline-block;
-  animation: blink 3s;
-  animation-iteration-count: infinite;
+
+#wrapper {
   position:relative;
-  z-index:1;
 }
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}*/
-
 
 #content {
   z-index:2;
   position: relative;
 }
+  #content article {
+    width:100%;
+  }
+  #content h1 {
+    line-height:100vh;
+    margin: 0 auto;
+    text-align:center;
+  }
+
 
 #bg-1{
   z-index:1;
@@ -142,3 +120,19 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB);
     top: 1020px;
     left: 450px;
     }
+  .stars {
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes blink {
+      0% {
+          opacity: 1;
+      }
+      50% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
