@@ -91,7 +91,7 @@ background: linear-gradient(to left, #360033 , #0b8793); /* W3C, IE 10+/ Edge, F
 }
 
 #content {
-  z-index:2;
+  z-index:3;
   position: relative;
 }
   #content article {
@@ -147,6 +147,35 @@ background: linear-gradient(to left, #360033 , #0b8793); /* W3C, IE 10+/ Edge, F
     }
 }*/
 
+#bg-2 {
+  z-index: 2;
+  position: fixed;
+  }
+  #bg2-1 {
+    position: absolute;
+    top: 162px;
+    left: 200px;
+    }
+  #bg2-2 {
+    position: absolute;
+    top: 300px;
+    left: 1150px;
+    }
+  #bg2-3 {
+    position: absolute;
+    top: 543px;
+    left: -35px;
+    }
+  #bg2-4 {
+    position: absolute;
+    top: 1180px;
+    left: 250px;
+    }
+  #bg2-5 {
+    position: absolute;
+    top: 900px;
+    left: 890px;
+    }
 
 
 /*media queries*/
