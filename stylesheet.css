@@ -29,14 +29,22 @@ background: linear-gradient(to left, #360033 , #0b8793); /* W3C, IE 10+/ Edge, F
   height:100vh;
   position:absolute;
 }
-  #page-1 h1{
-  line-height:100vh;
+  #hello{
+  /*height:100vh;*/
+  padding-top:250px;
   }
 #page-2 {
   height:100vh;
   /*line-height:50px;*/
   position:absolute;
   top:1090px;
+}
+
+#page-3 {
+  height:100vh;
+  /*line-height:50px;*/
+  position:absolute;
+  top:2180px;
 }
 
 /*arrow to schroll down css begins here*/
