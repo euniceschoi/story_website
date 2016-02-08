@@ -206,3 +206,10 @@ background: linear-gradient(to left, #360033 , #0b8793); /* W3C, IE 10+/ Edge, F
     /*line-height: 20px;*/
   }
 }
+
+ul {
+  display:block;
+  list-style-image:url('purplejewel-small.png');
+  text-align:center;
+  margin:0 auto;
+}
